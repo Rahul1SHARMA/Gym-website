@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RahuL Fitness</title>
+</head>
+<link rel="stylesheet" href="site.css">
+<style>
+    /*css reset*/
+    body {
+        font-style: italic;
+        font-family: 'Baloo Bhai 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/man.jpg');
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red;*/
+        border-radius: 3px;
+
+
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(200%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 19px;
+        font-size: 24px;
+    }
+
+    .mid {
+        width: 48%;
+        margin: 20px auto;
+        /*  border: 2px solid rgb(77, 29, 29);*/
+    }
+
+    .right {
+        position: absolute;
+        right: 108px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid green;*/
+    }
+
+    .navbar {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 3px 7px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 16px;
+        font-style: italic;
+        font-family: 'Baloo Bhai 2', cursive;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(63, 58, 58);
+    }
+
+    .container {
+        /* border: 2px solid black;*/
+        margin: 170px 2px;
+        padding: 12px 2px;
+        width: 30%;
+        border-radius: 12px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        display: block;
+        width: 134px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-size: 89%;
+        border-radius: 9px;
+    }
+
+    .container h3 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: 10px auto;
+    }
+</style>
+
+<body>
+
+    <header class="header">
+        <div class="left">
+
+            <img src="img/workout-icons-5497868_1280.png" alt="">
+            <div>RahuL Fitness</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">CaLL Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h3>Join the Best GYM of Jamshedpur Now</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+                <input type="text" name="" placeholder="Enter Your Age">
+                <input type="text" name="" placeholder="Enter Your Gender">
+                <input type="text" name="" placeholder="Enter Your Email">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
